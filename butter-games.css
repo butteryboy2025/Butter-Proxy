@@ -236,10 +236,23 @@ nav .navigation ul li a:hover
 }
 
 #features a {
-	background: #fdc938;
-	text-align: start;
-	padding: 1.2rem;
-	border-radius: 4px;
+	padding: 12px 24px;
+    border: none;
+    border-radius: 8px;
+    font-size: 16px;
+    font-weight: 600;
+    cursor: pointer;
+    transition: transform 0.15s ease, background-color 0.2s ease;
+}
+
+#features a:hover {
+	background-color: #FFEA61;
+    transform: translateY(-2px);
+}
+
+#features a:active {
+	 background-color: #E6C200;
+    transform: translateY(0);
 }
 /*------------- Features section styling -------------*/
 
