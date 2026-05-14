@@ -223,6 +223,16 @@ nav .navigation ul li a:hover
 	color: rgb(70, 70, 87);
 }
 
+#features .fea-box a
+{
+	text-decoration: none;
+	font-size: 0.9rem;
+	padding: 12px 15px;
+	background-color: #001352;
+	font-weight: 600;
+	border-radius: 5px;
+}
+
 #features .games {
     color: #7b838a;
 	padding: 10px 0;
@@ -235,24 +245,26 @@ nav .navigation ul li a:hover
     color: rgb(241, 240, 245);
 }
 
-#features a {
-	padding: 12px 24px;
-    border: none;
-    border-radius: 8px;
-    font-size: 16px;
-    font-weight: 600;
-    cursor: pointer;
-    transition: transform 0.15s ease, background-color 0.2s ease;
+#features .subscribe a
+{
+	text-decoration: none;
+	font-size: 0.9rem;
+	padding: 12px 15px;
+	background-color: #fff;
+	font-weight: 600;
 }
 
-#features a:hover {
-	background-color: #FFEA61;
-    transform: translateY(-2px);
+#features .subscribe a.yellow
+{
+	color: #fff;
+	background: #fdc93b;
+	transition: 0.3s ease;
 }
 
-#features a:active {
-	 background-color: #E6C200;
-    transform: translateY(0);
+#features .subscribe a.yellow:hover
+{
+	color: rgb(21, 21, 100);
+	background: #fff;
 }
 /*------------- Features section styling -------------*/
 
