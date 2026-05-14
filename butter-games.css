@@ -236,15 +236,10 @@ nav .navigation ul li a:hover
 }
 
 #features .games .btn {
-	text-decoration: none;
-	font-size: 0.9rem;
-	padding: 13px 35px;
-	background-color: #fff;
-	font-weight: 600;
-	border-radius: 5px;
-	color: #fff;
-	background: #fdc938;
-	transition: 0.3s ease;
+		display: grid;
+	grid-template-columns: repeat(auto-fit, minmax(320px, 1fr));
+	grid-gap: 1rem;
+	margin-top: 50px;
 }
 /*------------- Features section styling -------------*/
 
